@@ -1,41 +1,7 @@
-# learning-typescript
-Just for learning typescript...
+# Lesson 01 - DataTypes
 
-## Setup the environment
+Typescript will infer the variable with datatype.
 
-- Install the typescript in global
-```
-npm i typescript -g
-```
+We'd better to asign the datatype to variables when defined it.
 
-- Create the tsconfig file -- tsconfig.json
-```
-tsc --init
-```
-
-- Setup the complier
-```
-# tsconfig.json
-{
-    "compilerOptions": {
-        "target": "es2016",
-        "rootDir": "./src",
-        "outDir": "./build/js",
-    },
-    "include": [
-        "src"
-    ]
-}
-```
-
-- Create `src`, `build` directory on the top level directory
-```
-mkdir {build, src}
-touch build/index.html
-touch src/main.ts
-```
-
-- Starting watching the top level directory for compliering
-```
-tsc -w
-```
+Typscript can using union type.
